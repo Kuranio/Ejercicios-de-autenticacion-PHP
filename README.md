@@ -18,7 +18,7 @@ $password = "contraseña";
 
 - Modifica el script de la actividad anterior para que, en lugar de validar el usuario y la contraseña mediante código lo haga mediante una base de datos. Para ello utiliza la siguiente tabla:
 
-    create table usuarios(
+    - create table usuarios(
     usuario varchar(20) primary key,
     pass varchar(64) not null
     );

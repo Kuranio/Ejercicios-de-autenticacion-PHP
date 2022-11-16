@@ -9,10 +9,24 @@ Dentro de dicha carpeta crea el fichero "validacion.php" que compruebe que el us
 
 - Modifica el script de la actividad anterior para que, en lugar de validar el usuario y la contraseña mediante código lo haga mediante una base de datos. Para ello utiliza la siguiente tabla:
 
-    create table usuarios(
-    usuario varchar(20) primary key,
-    pass varchar(64) not null
-    );
+## Importante
+
+Modificar nombre y contraseña del usuario en el archivo "conexion.php" para enlazar la base de datos.
+
+```php
+$user = "nombre_de_usuario";
+$password = "contraseña";
+```
+
+Creación de la tabla en la base de datos.
+
+```mysql
+
+create table usuarios(
+usuario varchar(20) primary key,
+pass varchar(64) not null
+);
+```
 
 # AO3.5 - Inicio de sesión con PHP
 

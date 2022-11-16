@@ -95,7 +95,7 @@
     <div class="col-12 col-s-12">
             <div class="container">
                 <div class="col-6 col-s-6 form-container">
-                    <form class="formulario" method="post" action="validacionPHP.php">
+                    <form class="formulario" method="post" action="./AO3.4/validacionPHP.php">
                         <p>Inicio de Sesión</p>
                         <input type="text" name="usuario" placeholder="&#xf007;  Usuario" style="font-family:Arial, FontAwesome" />
                         <input type="password" name="contraseña" placeholder="&#xf023;  Contraseña" style="font-family:Arial, FontAwesome" />

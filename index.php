@@ -6,11 +6,14 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="paginaInicioSesion.php">Pulsa aqui para acceder al inicio de sesión por PHP</a>
-    <br>
-    <a href="listado.php">Listado</a>
-    <br>
-    <a href="perfil.php">Perfil</a>
-    <br>
+    <fieldset style="border: 1px solid; width: 50%;">
+        <legend>Ejercicios de autenticación</legend>
+        <a href="paginaInicioSesion.php">AO3.2 - Inicio de sesión a traves de PHP</a>
+        <br>
+        <a href="listado.php">AO3.3 - Inicio de sesión a travñes de 2 usuarios establecidos</a>
+        <br>
+        <a href="perfil.php">AO3.4 - Inicio de sesión a traves de los usuarios de una tabla en una base de datos</a>
+        <br>
+    </fieldset> 
 </body>
 </html>

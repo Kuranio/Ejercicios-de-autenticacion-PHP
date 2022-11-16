@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
     $db = "gestionproductos";
-    $user = "raulgarciaCampus";
-    $password = "admin";
+    $user = "usuario"; #introducir usuario de la base de datos
+    $password = "contraseña"; #introducir contraseña de la base de datos 
     $controlador = "mysql";
     $dsn = "$controlador:host=$host;dbname=$db";
 

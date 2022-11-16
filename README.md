@@ -1,3 +1,12 @@
+## Importante
+
+Modificar nombre y contraseña del usuario en el archivo "conexion.php" para enlazar la base de datos.
+
+```sh
+$user = "nombre_de_usuario";
+$password = "contraseña";
+```
+
 # AO3.2 - Autenticación HTTP gestionada desde PHP
 
 - Crea en tu servidor web la carpeta /autenticacion2. 

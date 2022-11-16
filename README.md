@@ -1,12 +1,3 @@
-## Importante
-
-Modificar nombre y contraseña del usuario en el archivo "conexion.php" para enlazar la base de datos.
-
-```sh
-$user = "nombre_de_usuario";
-$password = "contraseña";
-```
-
 # AO3.2 - Autenticación HTTP gestionada desde PHP
 
 - Crea en tu servidor web la carpeta /autenticacion2. 
@@ -15,6 +6,15 @@ Dentro de dicha carpeta crea el fichero "validacion.php" que compruebe que el us
 - Crea tres ficheros PHP (index.php, listado.php y perfil.php) en dicho directorio. Desde index.php se podrá acceder a listado.php y a perfil.php. En dichas páginas debes mostrar el contenido que tú desees, pero antes de mostrar dicho contenido debes incluir el fichero "validacion.php" para que solo accedan al php los usuarios autorizados.
 
 # AO3.3 - Autenticación HTTP gestionada desde PHP contra una Base de Datos
+
+## Importante
+
+Modificar nombre y contraseña del usuario en el archivo "conexion.php" para enlazar la base de datos.
+
+```sh
+$user = "nombre_de_usuario";
+$password = "contraseña";
+```
 
 - Modifica el script de la actividad anterior para que, en lugar de validar el usuario y la contraseña mediante código lo haga mediante una base de datos. Para ello utiliza la siguiente tabla:
 

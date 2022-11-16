@@ -1,5 +1,5 @@
 <?php
-$host = "localhost";
+    $host = "localhost";
     $db = "gestionproductos";
     $user = "usuario"; #introducir usuario de la base de datos
     $password = "contraseña"; #introducir contraseña de la base de datos 

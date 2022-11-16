@@ -1,3 +1,4 @@
+<?php include "validacionPHP.php"?>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,11 +7,6 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="paginaInicioSesion.php">Pulsa aqui para acceder al inicio de sesión por PHP</a>
-    <br>
-    <a href="listado.php">Listado</a>
-    <br>
-    <a href="perfil.php">Perfil</a>
-    <br>
+    <h1>Hola esto es una pagina a la que entras xd</h1>
 </body>
 </html>

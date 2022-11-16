@@ -7,8 +7,7 @@
 </head>
 <body>
     <?php
-        include "validacion.php";
+        include "paginaInicioSesion.php";
     ?>
-    <h1>Esto es listado</h1>
 </body>
 </html>

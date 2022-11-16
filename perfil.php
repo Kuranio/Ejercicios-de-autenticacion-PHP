@@ -6,11 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <a href="paginaInicioSesion.php">Pulsa aqui para acceder al inicio de sesión por PHP</a>
-    <br>
-    <a href="listado.php">Listado</a>
-    <br>
-    <a href="perfil.php">Perfil</a>
-    <br>
+    <?php
+        include "validacionBD.php";
+    ?>
+    <h1>Esto es perfil</h1>
 </body>
 </html>

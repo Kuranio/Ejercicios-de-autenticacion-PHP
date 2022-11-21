@@ -31,3 +31,7 @@ pass varchar(64) not null
 # AO3.5 - Inicio de sesión con PHP
 
 - Modifica la actividad anterior para que el usuario se valide mediante una página de inicio de sesión creada por ti en PHP en lugar de que sea el navegador el que solicite el nombre de usuario y la contraseña.
+
+# AO3.6 - Manejo de sesiones
+
+- Modifica la aplicación AO3.5 para que, tras validarnos, podamos acceder a todos los PHP sin necesidad de validarnos nuevamente y sin tener que pasar por get ningún dato.

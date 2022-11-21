@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        include "./AO3.2/validacion.php";
+        include "validacion.php";
     ?>
     <h1>Esto es validacion<h1>
 </body>

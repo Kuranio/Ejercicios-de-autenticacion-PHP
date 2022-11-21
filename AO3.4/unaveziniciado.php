@@ -7,6 +7,8 @@
     <title>Document</title>
 </head>
 <body>
+    <?php if(!isset($_SESSION['validated'])) header("Location: paginaInicioSesion.php");?>
     <h1>Hola esto es una pagina a la que entras xd</h1>
+    <a href="paginaInicioSesion.php?endsession">Cerrar Sesión</a>
 </body>
 </html>

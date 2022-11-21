@@ -1,6 +1,12 @@
 <?php
-    include "conexion.php";
-    global $conProyecto;
+    $host = "localhost";
+    $db = "gestionproductos";
+    $user = "raulgarciaCampus"; #introducir usuario de la base de datos
+    $password = "admin"; #introducir contraseña de la base de datos 
+    $controlador = "mysql";
+    $dsn = "$controlador:host=$host;dbname=$db";
+
+    $conProyecto = new PDO($dsn, $user, $password);
 
     if(!isset($_SERVER['PHP_AUTH_USER'])){
         header('WWW-Authenticate: Basic Realm="Contenido restringido"');

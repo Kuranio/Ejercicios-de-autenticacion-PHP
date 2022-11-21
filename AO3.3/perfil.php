@@ -7,7 +7,7 @@
 </head>
 <body>
     <?php
-        include "./AO3.3/validacionBD.php";
+        include "validacionBD.php";
     ?>
     <h1>Esto es perfil</h1>
 </body>

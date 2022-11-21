@@ -1,4 +1,5 @@
 <html lang="en">
+<?php session_start(); if(isset($_GET["endsession"])){session_destroy(); header("Location: " . parse_url($_SERVER["REQUEST_URI"], PHP_URL_PATH));} ?>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -95,7 +96,7 @@
     <div class="col-12 col-s-12">
             <div class="container">
                 <div class="col-6 col-s-6 form-container">
-                    <form class="formulario" method="post" action="./AO3.4/validacionPHP.php">
+                    <form class="formulario" method="post" action="./validacionPHP.php">
                         <p>Inicio de Sesión</p>
                         <input type="text" name="usuario" placeholder="&#xf007;  Usuario" style="font-family:Arial, FontAwesome" />
                         <input type="password" name="contraseña" placeholder="&#xf023;  Contraseña" style="font-family:Arial, FontAwesome" />
